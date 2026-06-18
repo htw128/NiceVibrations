@@ -4,6 +4,7 @@ set -e
 
 export ANDROID_HOME="${ANDROID_HOME:-/Users/oliver/Library/Android/sdk/}"
 export ANDROID_NDK_HOME="${ANDROID_NDK_HOME:-/Users/oliver/Library/Android/sdk/ndk/27.3.13750724/}"
+export JAVA_HOME="/Users/oliver/Library/Android/OpenJDK/jdk-17.0.18+8/Contents/Home"
 
 WORKSPACE_ROOT="$(cd "$(dirname "$0")/../../.." && pwd)"
 API_DIR="$WORKSPACE_ROOT/core/api"
